@@ -1,0 +1,294 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+font-size: 1.2em;
+color: #555;
+background-color:#2b2525;
+}
+
+.header{
+	background-color: #2b2525;
+	height: 150px;
+	font-size: 0.8em;
+	margin-left: 0px;
+	margin-right: 0px;
+	min-width: 900px;
+}
+
+.header h1 {
+  color: white;
+	font: italic small-caps bold 35px/2 cursive;
+  text-shadow: 0 0 10px #aeb002, 0 0 30px rgba(10, 175, 230, 0);
+	margin: 0 0 0 50px;
+}
+.header h2 {
+  color: white;
+	font: italic small-caps bold 15px/2 cursive;
+  text-shadow: 0 0 10px  #aeb002, 0 0 30px rgba(10, 175, 230, 0);
+	margin:  0 0 0 50px;
+}
+.menubar {
+  margin-left: 400px;
+	display: flex;
+	align-items: center;
+	width: 900px;
+	height: 46px;
+}
+ul.menu{
+	float: right;
+}
+ul.menu li{
+	float: left;
+	padding: 0 0 0 9px;
+	list-style: none;
+	margin: 1px 2px 0 0;
+}
+ul.menu li a{
+	font: italic small-caps bold 15px/2 cursive;
+	display: block;
+	height: 20px;
+	padding: 6px 35px 5px 28px;
+	color: lightgray;
+	text-decoration: none;
+}
+ul.menu li.selected a{
+	color: #aeb002;
+}
+ul.menu li a:hover {
+	color: #e4ec04;
+}
+.onlineTrainerIMG{
+  width: 200px;
+  height: 100px;
+}
+.site_content{
+	width: 1250px;
+  height: 1000px;
+  border-radius: 50px;
+	overflow: hidden;
+	margin: 0px 0px 0px 40px;
+	color: black;
+	background:  url(img/fon.jpg);
+}
+.site_content_about{
+  width: 1350px;
+  height: 1500px;
+}
+.site_content_about .content_left1{
+  float: left;
+  width: 500px;
+  margin-left: 30px;
+  margin-top: 100px;
+}
+.site_content_about .content_left1 img {
+  width: 600px;
+  height: 600px;
+  border-radius: 10%;
+  border: solid #383030ba;
+}
+.site_content_about .content_right1 img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10%;
+  border: solid #383030ba;
+}
+.site_content_about .content_right1{
+  display: grid;
+  float: right;
+  width: 600px;
+  height: 600px;
+  margin-left: 10px;
+  margin-right: 30px;
+  margin-top: 100px;
+  border-radius: 10%;
+  text-align: center;
+  background-color:#383030ba;
+  border: solid;
+}
+.site_content_about .content_right1 p {
+  color: lightgray;
+  font: italic small-caps bold 15px/1 cursive;
+}
+.site_content_about .content_right1 h2 {
+  color: lightgray;
+  font: italic small-caps bold 35px/1 cursive;
+}
+
+.site_content_about .content_left2{
+  position: absolute;
+  float: left;
+  width: 600px;
+  height: 600px;
+  margin-left: 25px;
+  margin-right: 10px;
+  margin-top: 715px;
+  border-radius: 10%;
+  text-align: center;
+  background-color:#383030ba;
+  border: solid;
+}
+
+.site_content_about .content_right2{
+  float: right;
+  width: 600px;
+  height: 600px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 30px;
+  border-radius: 10%;
+  text-align: center;
+  background-color:#383030ba;
+  border: solid;
+}
+.site_content_about .content_right2 img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10%;
+  border: solid #383030ba;
+  margin-bottom: 200px;
+}
+.site_content_about .content_right2 p {
+  color: lightgray;
+  font: italic small-caps bold 20px/1 cursive;
+  text-align: justify;
+  margin-top: 40px;
+}
+.site_content_about .content_right2 h2 {
+  margin-bottom: 80px;
+  color: lightgray;
+  font: italic small-caps bold 35px/1 cursive;
+}
+.site_content_about .content_left2 p {
+  color: lightgray;
+  font: italic small-caps bold 20px/1 cursive;
+  text-align: justify;
+  margin-top: 40px;
+}
+.site_content_about .content_left2 h2 {
+  margin-bottom: 80px;
+  color: lightgray;
+  font: italic small-caps bold 35px/1 cursive;
+}
+.site_content_reviews{
+  display: block;
+}
+.site_content_contacts{
+  width: 900px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-left: 500px;
+}
+.site_content_contacts img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 100px;
+}
+.profileP{
+  padding-top: 20px;
+  padding-left: 400px;
+  padding-bottom: 0px;
+  font: italic small-caps bold 35px/1 cursive;
+  color: lightgray;
+}
+.profileArrow{
+  margin-top: 0;
+  padding-top: 0;
+  padding-left: 720px;
+  font: italic small-caps bolder 25px/1 cursive;
+  color: red;
+}
+.review{
+  padding-left: 20px;
+  padding-top: 20px;
+  height: 550px;
+  width: 350px;
+}
+.inst{
+  height: 50px;
+  width: 50px;
+  padding-left: 330px;
+  padding-bottom: 300px;
+}
+.onlineTrainer{
+	height: 1000px;
+  background-color: #383030ba;
+}
+.workForResult{
+  padding-top: 50px;
+  text-align: center;
+  color: lightgray;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 80px;
+}
+.onlineTrainer p{
+  text-align: center;
+  color: lightgray;
+  font: italic small-caps bold 15px/2 cursive;
+}
+.onlineConsultation{
+  width: 200px;
+  height: 50px;
+  margin-left: 550px;
+  margin-top: 250px;
+  color:#aeb002;
+  background-color:#383030ba;
+  border: solid #aeb002;
+  border-radius: 20px;
+  font: italic small-caps bold 15px/1 cursive;
+}
+.onlineConsultation:hover{
+color: #e4ec04;
+}
+.form_container{
+display: none;
+justify-content: center;
+align-items: center;
+color:#aeb002;
+background-color:#383030ba;
+border-radius: 10px;
+font: italic small-caps bold 15px/1 cursive;
+}
+._error{
+  box-shadow: 0 0 15px red;
+}
+.form_container input{
+  margin-top: 10px;
+  color:#aeb002;
+  background-color:#383030ba;
+  border: solid #aeb002;
+  border-radius: 20px;
+  font: italic small-caps bold 15px/1 cursive;
+}
+#submitEmail{
+  width: 100px;
+  height: 40px;
+}
+
+.goToTraining{
+  width: 200px;
+  height: 50px;
+  margin-left: 550px;
+  margin-top: 250px;
+  color:#aeb002;
+  background-color:#383030ba;
+  border: solid #aeb002;
+  border-radius: 20px;
+  font: italic small-caps bold 15px/1 cursive;
+}
+.goToTraining:hover{
+color: #e4ec04;
+}
+.onlineManagment{
+  padding-top: 50px;
+  font-size: 30px;
+  text-align: center;
+  color: lightgray;
+  font-style: normal;
+  font-weight: bolder;
+}

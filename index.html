@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Trainer site</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <meta name = "discription"content ="Фитнес тренер"/>
+	<meta name = "keywords" content = "фитнес-тренер, персональный тренер, тренер Киев"/>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</head>
+<body>
+
+  <div class = "main">
+ 	 	<div class = "header">
+ 	  <h1>Боровскова Евгения</h1>
+ 		<h2>Ваш персональный тренер!</h2>
+
+    <div class="menubar">
+
+	 <ul class = "menu">
+
+<li class = "selected"><a href = "index.html">Главная</a></li>
+<li ><a href = "about.html">Обо мне</a></li>
+<li><a href = "reviews.html">Отзывы</a> </li>
+<li><a href = "contacts.html">Контакты</a> </li>
+</ul>
+
+
+</div>
+</div>
+
+<div class="site_content">
+<div class="onlineTrainer">
+  <h1 class="workForResult">Работа на результат</h1>
+<p>
+Начинайте прямо сейчас двигаться к телу Вашей мечты
+</p>
+<div class="form_container">
+
+<script src='assets/emailHandler.php'></script>
+<form role='form' action="emailHandler.php" method="POST" id="form">
+<div class="form-group">
+<label for="text">Имя</label>
+<input type="text" class="form-control" name="user_name" id="name" placeholder="Введите Ваше имя">
+</div>
+<div class="form-group">
+<label for="text">Цель занятий</label>
+<input type="text" class="form-control" name="user_target" id="target" placeholder="Введите Вашу цель занятий">
+</div>
+<div class="form-group">
+<label for="email">E-mail</label>
+<input type="email" class="form-control" name="user_email" id="email" placeholder="Введите e-mail">
+</div>
+<div class="checkbox">
+<label for="email">
+<input type="checkbox">  Я даю согласие на обработку своих персональных данных</label>
+</div>
+<input type="submit" id="submitEmail" value="Отправить" />
+</form>
+
+</div>
+<button class="onlineConsultation">
+Получить онлайн консультацию
+</button>
+
+<h1 class="onlineManagment">Онлайн консультация</h1>
+<p>
+Моя онлайн-консультация позволяет быстро, удобно и конфиденциально получить подходящую Вам программу тренировок и питания, исходя из Ваших особенностей и целей. Последующие действия через мессенджеры, где Вы в любое время можете напрямую связаться со мной по всем вопросам. Я помогу Вам достичь целей безопасно и в короткие сроки. Ваше здоровье - мой приоритет!
+</p>
+<button class="goToTraining" >Хочу на тренировку</button>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+<script src="assets/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
